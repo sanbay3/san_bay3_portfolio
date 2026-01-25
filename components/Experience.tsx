@@ -16,9 +16,9 @@ export default function Experience() {
   // 経歴リスト（ここに追加・編集してください）
   const experiences: ExperienceItem[] = [
     {
-      period: '2024 - 現在',
-      title: 'Web開発学習中',
-      description: 'Next.js、TypeScript、Reactなどを学習しています。',
+      period: '2021 - 現在',
+      title: '学習開始',
+      description: '色々と薄く広く学習を開始しました',
     },
     // 今後追加する経歴をここに記入
   ]

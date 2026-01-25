@@ -40,7 +40,7 @@ export default function Navigation() {
             }}
             className="text-xl md:text-2xl font-bold hover:text-text-secondary transition-colors"
           >
-            さんべい
+            さんべいのホームページ
           </a>
 
           {/* デスクトップメニュー */}
