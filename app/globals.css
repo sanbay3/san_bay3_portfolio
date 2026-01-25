@@ -1,0 +1,43 @@
+/* Tailwind CSSの基本スタイルをインポート */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* グローバルスタイル */
+@layer base {
+  /* スムーズなスクロール */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* ボディの基本スタイル */
+  body {
+    @apply antialiased; /* フォントのアンチエイリアス */
+    @apply font-sans; /* システムフォントを使用 */
+  }
+
+  /* 見出しのスタイル */
+  h1, h2, h3 {
+    @apply font-bold;
+    letter-spacing: -0.02em; /* よりタイトな文字間隔 */
+  }
+}
+
+/* カスタムユーティリティクラス */
+@layer utilities {
+  /* セクション間の余白 */
+  .section-padding {
+    @apply py-20 px-4 md:py-32 md:px-8;
+  }
+
+  /* コンテナの最大幅と中央揃え */
+  .container-custom {
+    @apply max-w-5xl mx-auto;
+  }
+
+  /* セクションタイトル */
+  .section-title {
+    @apply text-4xl md:text-5xl font-bold mb-12 text-center;
+    @apply tracking-tight;
+  }
+}

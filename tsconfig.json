@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    // TypeScriptの設定
+    // target: コンパイル後のJavaScriptのバージョン
+    "target": "ES2020",
+    // lib: 使用する標準ライブラリの定義
+    "lib": ["dom", "dom.iterable", "esnext"],
+    // allowJs: JavaScriptファイルも許可
+    "allowJs": true,
+    // skipLibCheck: 型定義ファイルのチェックをスキップ（ビルド速度向上）
+    "skipLibCheck": true,
+    // strict: 厳密な型チェックを有効化
+    "strict": true,
+    // noEmit: 型チェックのみ（Next.jsがビルドするため）
+    "noEmit": true,
+    // esModuleInterop: CommonJSとES Modulesの相互運用性を向上
+    "esModuleInterop": true,
+    // module: モジュールシステム
+    "module": "esnext",
+    // moduleResolution: モジュール解決方法
+    "moduleResolution": "bundler",
+    // resolveJsonModule: JSONファイルをインポート可能に
+    "resolveJsonModule": true,
+    // isolatedModules: 各ファイルを独立してトランスパイル
+    "isolatedModules": true,
+    // jsx: ReactのJSX変換方法
+    "jsx": "preserve",
+    // incremental: インクリメンタルコンパイルを有効化
+    "incremental": true,
+    // plugins: 追加のプラグイン
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    // paths: パスエイリアス（@/でsrcディレクトリを参照可能）
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  // コンパイル対象のファイル
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  // 除外するファイル
+  "exclude": ["node_modules"]
+}
