@@ -21,6 +21,17 @@
     @apply font-bold;
     letter-spacing: -0.02em; /* よりタイトな文字間隔 */
   }
+
+  /* スムーズスクロールのオフセット調整（固定ナビゲーションバー対応） */
+  section[id] {
+    scroll-margin-top: 5rem; /* ナビゲーションバーの高さ分のオフセット */
+  }
+
+  @media (min-width: 768px) {
+    section[id] {
+      scroll-margin-top: 6rem; /* デスクトップでは少し大きめに */
+    }
+  }
 }
 
 /* カスタムユーティリティクラス */
