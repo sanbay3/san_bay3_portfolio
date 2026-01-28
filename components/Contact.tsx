@@ -80,10 +80,10 @@ export default function Contact() {
   return (
     <section id="contact" className="section-padding bg-bg-secondary">
       <div className="container-custom text-center">
-        <h2 className="section-title">Contact</h2>
+        <h2 className="section-title">SNS / Accounts</h2>
         
         <p className="text-text-secondary mb-12 text-lg max-w-2xl mx-auto">
-          お気軽にご連絡ください。
+          普段使っているSNSやアカウントです。
         </p>
         
         {/* SNSリンクのリスト */}
