@@ -51,11 +51,11 @@ export default function Contact() {
       icon: <FaGithub />,
     },
     // {
-    //   name: 'Qiita',
-    //   url: 'https://qiita.com/your_username',
-    //   icon: <QiitaIcon />,
-    // },
-    // {
+      name: 'Qiita',
+      url: 'https://qiita.com/san_bay3',
+      icon: <QiitaIcon />,
+    },
+    {
     //   name: 'LinkedIn',
     //   url: 'https://linkedin.com/in/your_username',
     //   icon: <FaLinkedin />,
