@@ -16,6 +16,7 @@ export default function Navigation() {
   const navLinks = [
     { name: 'About', href: '#about' },
     { name: 'Skills', href: '#skills' },
+    { name: 'Certifications', href: '#certifications' },
     { name: 'Projects', href: '#projects' },
     { name: 'Experience', href: '#experience' },
     { name: 'SNS / Accounts', href: '#contact' },

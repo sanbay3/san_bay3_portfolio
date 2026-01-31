@@ -83,7 +83,7 @@ export default function Contact() {
       <div className="container-custom text-center">
         <h2 className="section-title">SNS / Accounts</h2>
         
-        <p className="text-text-secondary mb-12 text-lg max-w-2xl mx-auto">
+        <p className="text-text-muted mb-12 text-lg max-w-2xl mx-auto text-center">
           普段使っているSNSやアカウントです。
         </p>
         

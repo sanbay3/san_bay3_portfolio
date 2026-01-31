@@ -28,6 +28,10 @@ export default function Experience() {
       <div className="container-custom">
         <h2 className="section-title">Experience</h2>
         
+        <p className="text-text-muted mb-12 text-lg max-w-2xl mx-auto text-center">
+          ざっくりとした経験です。（今後編集予定）
+        </p>
+        
         {/* 経歴のタイムライン表示 */}
         <div className="max-w-3xl mx-auto space-y-8">
           {experiences.map((exp, index) => (

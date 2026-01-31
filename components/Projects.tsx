@@ -18,7 +18,7 @@ export default function Projects() {
   const projects: Project[] = [
     {
       title: 'ポートフォリオサイト',
-      description: 'このサイトです。Next.jsとTypeScriptで作成しました。',
+      description: 'このサイトです。',
       // link: 'https://example.com', // デプロイ後のURL
       // github: 'https://github.com/username/repo', // GitHubリポジトリ
     },
@@ -29,6 +29,10 @@ export default function Projects() {
     <section id="projects" className="section-padding bg-bg-secondary">
       <div className="container-custom">
         <h2 className="section-title">Projects</h2>
+        
+        <p className="text-text-muted mb-12 text-lg max-w-2xl mx-auto text-center">
+          作成したプロジェクトです。（今後編集予定）
+        </p>
         
         {/* プロジェクトカードのグリッド */}
         <div className="grid md:grid-cols-2 gap-6">

@@ -18,6 +18,10 @@ export default function Skills() {
       <div className="container-custom">
         <h2 className="section-title">Skills</h2>
         
+        <p className="text-text-muted mb-12 text-lg max-w-2xl mx-auto text-center">
+          勉強中のスキルです。（今後編集予定）
+        </p>
+        
         {/* スキルをグリッド表示 */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {skills.map((skill, index) => (

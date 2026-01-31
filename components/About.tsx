@@ -10,14 +10,19 @@ export default function About() {
       <div className="container-custom">
         <h2 className="section-title">About</h2>
         
+        <p className="text-text-secondary mb-12 text-lg max-w-2xl mx-auto text-center">
+          {/* セクションの説明文をここに記入してください */}
+        </p>
+        
         <div className="max-w-3xl mx-auto space-y-6 text-text-secondary text-lg leading-relaxed">
           {/* 自己紹介文をここに記入してください */}
           <p>
             こんにちは、さんべいです。
           </p>
           <p>
-            現在、Web開発の学習を進めています。
-            シンプルで使いやすいWebサイトを作ることを目指しています。
+            情報系専攻だったにも関わらず何も身につけられていないことに焦りを感じているアラサー会社員です。
+            <br />モチベ維持のため薄く広く学習を進めています。
+            <br />ぼちぼちがんばります。
           </p>
         </div>
       </div>
