@@ -16,16 +16,17 @@ import {
   FaGlobe
 } from 'react-icons/fa6'
 
-// Qiitaのアイコン（カスタムSVG）
+// Qiitaのアイコン（公式ロゴを使用）
+import Image from 'next/image'
+
 const QiitaIcon = () => (
-  <svg
-    viewBox="0 0 24 24"
-    fill="currentColor"
+  <Image
+    src="/qiita-icon.png"
+    alt="Qiita"
+    width={24}
+    height={24}
     className="w-6 h-6"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1.5 15.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm5-2c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm-2.5-5c-.83 0-1.5-.67-1.5-1.5S12.67 8.5 13.5 8.5 15 9.17 15 10s-.67 1.5-1.5 1.5z"/>
-  </svg>
+  />
 )
 
 // SNSリンクの型定義（TypeScript）
