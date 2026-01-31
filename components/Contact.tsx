@@ -84,7 +84,7 @@ export default function Contact() {
         <h2 className="section-title">SNS / Accounts</h2>
         
         <p className="text-text-muted mb-12 text-lg max-w-2xl mx-auto text-center">
-          普段使っているSNSやアカウントです。
+          普段使っているSNSなどです。
         </p>
         
         {/* SNSリンクのリスト */}
