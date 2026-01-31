@@ -50,12 +50,12 @@ export default function Contact() {
       url: 'https://github.com/sanbay3',
       icon: <FaGithub />,
     },
-    // {
+    {
       name: 'Qiita',
       url: 'https://qiita.com/san_bay3',
       icon: <QiitaIcon />,
     },
-    {
+    // {
     //   name: 'LinkedIn',
     //   url: 'https://linkedin.com/in/your_username',
     //   icon: <FaLinkedin />,
