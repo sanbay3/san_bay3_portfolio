@@ -3,14 +3,14 @@ import './globals.css'
 
 // メタデータ（SEO用の情報）
 export const metadata: Metadata = {
-  title: 'さんべい | Portfolio',
-  description: 'さんべいのポートフォリオサイト。Web開発を学んでいます。',
+  title: 'さんべい | Homepage',
+  description: 'さんべいのホームページ。Web開発を学んでいます。',
   // OGP（Open Graph）設定 - SNSシェア時の表示を改善
   openGraph: {
-    title: 'さんべい | Portfolio',
-    description: 'さんべいのポートフォリオサイト。Web開発を学んでいます。',
+    title: 'さんべい | Homepage',
+    description: 'さんべいのホームページ。Web開発を学んでいます。',
     url: 'https://fabulous-tulumba-816ab8.netlify.app',
-    siteName: 'さんべいのポートフォリオ',
+    siteName: 'さんべいのホームページ',
     locale: 'ja_JP',
     type: 'website',
     // 画像を追加する場合は、以下をコメントアウトして画像URLを指定
@@ -19,15 +19,15 @@ export const metadata: Metadata = {
     //     url: 'https://fabulous-tulumba-816ab8.netlify.app/og-image.png',
     //     width: 1200,
     //     height: 630,
-    //     alt: 'さんべいのポートフォリオ',
+    //     alt: 'さんべいのホームページ',
     //   },
     // ],
   },
   // Twitterカード設定
   twitter: {
     card: 'summary_large_image',
-    title: 'さんべい | Portfolio',
-    description: 'さんべいのポートフォリオサイト。Web開発を学んでいます。',
+    title: 'さんべい | Homepage',
+    description: 'さんべいのホームページ。Web開発を学んでいます。',
     // Twitterのユーザー名を追加する場合（例：@san_bay3）
     // creator: '@san_bay3',
     // 画像を追加する場合は、以下をコメントアウトして画像URLを指定
