@@ -2,7 +2,7 @@ import Navigation from '@/components/Navigation'
 import Hero from '@/components/Hero'
 import About from '@/components/About'
 import Skills from '@/components/Skills'
-import Certifications from '@/components/Certifications'
+import Qualifications from '@/components/Qualifications'
 import Projects from '@/components/Projects'
 import Experience from '@/components/Experience'
 import Contact from '@/components/Contact'
@@ -28,8 +28,8 @@ export default function Home() {
       {/* Skillsセクション：スキル・技術スタック */}
       <Skills />
       
-      {/* Certificationsセクション：資格・検定 */}
-      <Certifications />
+      {/* Qualificationsセクション：資格・検定 */}
+      <Qualifications />
       
       {/* Projectsセクション：プロジェクト・作品 */}
       <Projects />
