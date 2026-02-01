@@ -3,11 +3,11 @@ import './globals.css'
 
 // メタデータ（SEO用の情報）
 export const metadata: Metadata = {
-  title: 'さんべい | Homepage',
+  title: 'さんべいのホームページ',
   description: 'さんべいのホームページ。Web開発を学んでいます。',
   // OGP（Open Graph）設定 - SNSシェア時の表示を改善
   openGraph: {
-    title: 'さんべい | Homepage',
+    title: 'さんべいのホームページ',
     description: 'さんべいのホームページ。Web開発を学んでいます。',
     url: 'https://fabulous-tulumba-816ab8.netlify.app',
     siteName: 'さんべいのホームページ',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   // Twitterカード設定
   twitter: {
     card: 'summary_large_image',
-    title: 'さんべい | Homepage',
+    title: 'さんべいのホームページ',
     description: 'さんべいのホームページ。Web開発を学んでいます。',
     // Twitterのユーザー名を追加する場合（例：@san_bay3）
     // creator: '@san_bay3',
