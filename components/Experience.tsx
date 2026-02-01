@@ -21,7 +21,7 @@ export default function Experience() {
       description: '焦りを感じはじめ、色々と学習を開始しました',
     },
     // 今後追加する経歴をここに記入
-  ]
+    ]
 
   return (
     <section id="experience" className="section-padding bg-bg-primary">
