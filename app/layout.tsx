@@ -4,11 +4,11 @@ import './globals.css'
 // メタデータ（SEO用の情報）
 export const metadata: Metadata = {
   title: 'さんべいのホームページ',
-  description: 'さんべいのホームページ。Web開発を学んでいます。',
+  description: 'さんべいのホームページ。ITについて色々学んでいます。',
   // OGP（Open Graph）設定 - SNSシェア時の表示を改善
   openGraph: {
     title: 'さんべいのホームページ',
-    description: 'さんべいのホームページ。Web開発を学んでいます。',
+    description: 'さんべいのホームページ。ITについて色々学んでいます。',
     url: 'https://fabulous-tulumba-816ab8.netlify.app',
     siteName: 'さんべいのホームページ',
     locale: 'ja_JP',

@@ -10,6 +10,8 @@ export default function Skills() {
     'HTML',
     'CSS',
     'JavaScript',
+    'C++',
+    'Network',
     // 今後追加するスキルをここに記入
   ]
 
