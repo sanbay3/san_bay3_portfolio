@@ -8,6 +8,7 @@
 interface Qualification {
   name: string
   level?: string // レベルやスコア（オプション）
+  date?: string // 取得年月（オプション）
 }
 
 export default function Qualifications() {
@@ -16,22 +17,28 @@ export default function Qualifications() {
     {
       name: 'TOEIC',
       level: '765点',
+      date: '2025年12月', // 取得年月を記入してください
     },
     {
       name: 'AtCoder',
       level: '茶色',
+      date: '202年7月', // 取得年月を記入してください
     },
     {
       name: '応用情報技術者試験',
+      date: '2017年12月', // 取得年月を記入してください
     },
     {
       name: '情報処理安全確保支援士試験',
+      date: '2021年12月', // 取得年月を記入してください
     },
     {
       name: 'ITIL Foundation',
+      date: '2017年9月', // 取得年月を記入してください
     },
     {
-      name: '簿記3級',
+      name: '日商簿記3級',
+      date: '2017年11月', // 取得年月を記入してください
     },
     ]
 
@@ -51,12 +58,15 @@ export default function Qualifications() {
               key={index}
               className="p-6 border border-accent bg-bg-primary rounded-sm hover:border-accent-hover hover:shadow-soft hover:-translate-y-1 transition-all duration-300"
             >
-              <div className="flex items-center justify-between">
+              <div className="flex items-center justify-between mb-2">
                 <span className="font-medium text-text-primary">{qual.name}</span>
                 {qual.level && (
                   <span className="text-text-muted text-sm">{qual.level}</span>
                 )}
               </div>
+              {qual.date && (
+                <p className="text-text-muted text-xs mt-2">{qual.date}取得</p>
+              )}
             </div>
           ))}
         </div>

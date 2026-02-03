@@ -11,6 +11,7 @@ interface Project {
   description: string
   link?: string // オプション（リンクがない場合もある）
   github?: string // GitHubリンク（オプション）
+  date?: string // 公開日や作成日（オプション）
 }
 
 export default function Projects() {
@@ -20,6 +21,7 @@ export default function Projects() {
       title: 'ポートフォリオサイト',
       description: 'このサイトです。',
       link: 'https://fabulous-tulumba-816ab8.netlify.app',
+      date: '2026年1月', // 公開日を記入してください
     },
     // 今後追加するプロジェクトをここに記入
   ]
@@ -44,9 +46,16 @@ export default function Projects() {
                 rel="noopener noreferrer"
                 className="group block p-8 border-2 border-accent bg-bg-primary rounded-sm hover:border-text-primary hover:shadow-medium hover:-translate-y-1 transition-all duration-300"
               >
-                <h3 className="text-2xl font-bold mb-3 group-hover:text-text-secondary transition-colors">
-                  {project.title}
-                </h3>
+                <div className="flex items-start justify-between mb-3">
+                  <h3 className="text-2xl font-bold group-hover:text-text-secondary transition-colors">
+                    {project.title}
+                  </h3>
+                  {project.date && (
+                    <span className="text-text-muted text-sm whitespace-nowrap ml-4">
+                      {project.date}
+                    </span>
+                  )}
+                </div>
                 <p className="text-text-muted leading-relaxed">{project.description}</p>
               </a>
             ) : (
@@ -54,9 +63,16 @@ export default function Projects() {
                 key={index}
                 className="p-8 border-2 border-accent bg-bg-primary rounded-sm"
               >
-                <h3 className="text-2xl font-bold mb-3">
-                  {project.title}
-                </h3>
+                <div className="flex items-start justify-between mb-3">
+                  <h3 className="text-2xl font-bold">
+                    {project.title}
+                  </h3>
+                  {project.date && (
+                    <span className="text-text-muted text-sm whitespace-nowrap ml-4">
+                      {project.date}
+                    </span>
+                  )}
+                </div>
                 <p className="text-text-muted leading-relaxed">{project.description}</p>
               </div>
             )
