@@ -22,7 +22,7 @@ export default function Qualifications() {
     {
       name: 'AtCoder',
       level: '茶色',
-      date: '202年7月', // 取得年月を記入してください
+      date: '2023年7月', // 取得年月を記入してください
     },
     {
       name: '応用情報技術者試験',
