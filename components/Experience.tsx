@@ -16,7 +16,7 @@ export default function Experience() {
   // 経歴リスト（ここに追加・編集してください）
   const experiences: ExperienceItem[] = [
     {
-      period: '2021 - 現在',
+      period: '2020 - 現在',
       title: '学習開始',
       description: '焦りを感じはじめ、色々と学習を開始しました',
     },
