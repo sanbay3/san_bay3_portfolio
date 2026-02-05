@@ -13,7 +13,7 @@ const config: Config = {
       colors: {
         // 背景色
         'bg-primary': '#ffffff', // 白
-        'bg-secondary': '#fafafa', // より洗練された薄いグレー
+        'bg-secondary': '#f5f5f5', // より洗練された薄いグレー（濃く調整）
         'bg-tertiary': '#f0f0f0', // 中間グレー
         // テキスト色
         'text-primary': '#0a0a0a', // ほぼ黒（より柔らかい）
