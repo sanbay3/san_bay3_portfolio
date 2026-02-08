@@ -6,7 +6,7 @@
  */
 export default function About() {
   return (
-    <section id="about" className="section-padding bg-bg-secondary">
+    <section id="about" className="section-padding bg-bg-primary">
       <div className="container-custom">
         <h2 className="section-title">About</h2>
         

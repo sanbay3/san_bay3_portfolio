@@ -43,7 +43,7 @@ export default function Qualifications() {
     ]
 
   return (
-    <section id="qualifications" className="section-padding bg-bg-secondary">
+    <section id="qualifications" className="section-padding bg-bg-primary">
       <div className="container-custom">
         <h2 className="section-title">Qualifications</h2>
         

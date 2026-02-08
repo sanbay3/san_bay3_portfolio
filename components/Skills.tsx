@@ -16,7 +16,7 @@ export default function Skills() {
   ]
 
   return (
-    <section id="skills" className="section-padding bg-bg-primary">
+    <section id="skills" className="section-padding bg-bg-secondary">
       <div className="container-custom">
         <h2 className="section-title">Skills</h2>
         
