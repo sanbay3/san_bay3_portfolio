@@ -4,8 +4,7 @@ const nextConfig = {
   reactStrictMode: true,
   
   // 静的エクスポート（SSG）の設定
-  // Netlifyで静的サイトとしてデプロイする場合は、以下のコメントを外してください
-  // output: 'export',
+  output: 'export',
   
   // 画像最適化（静的エクスポート時は無効化が必要）
   // images: {
