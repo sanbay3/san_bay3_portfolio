@@ -65,7 +65,7 @@ export default function Qualifications() {
                 )}
               </div>
               {qual.date && (
-                <p className="text-text-muted text-xs mt-2">{qual.date}取得</p>
+                <p className="text-text-muted text-xs mt-2">{qual.date}</p>
               )}
             </div>
           ))}
