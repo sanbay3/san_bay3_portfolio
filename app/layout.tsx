@@ -9,14 +9,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'さんべいのホームページ',
     description: 'さんべいのホームページ。ITについて色々学んでいます。',
-    url: 'https://fabulous-tulumba-816ab8.netlify.app',
+    url: 'https://your-site.pages.dev', // TODO: Cloudflare PagesのURLに更新してください
     siteName: 'さんべいのホームページ',
     locale: 'ja_JP',
     type: 'website',
     // 画像を追加する場合は、以下をコメントアウトして画像URLを指定
     // images: [
     //   {
-    //     url: 'https://fabulous-tulumba-816ab8.netlify.app/og-image.png',
+    //     url: 'https://your-site.pages.dev/og-image.png', // TODO: Cloudflare PagesのURLに更新してください
     //     width: 1200,
     //     height: 630,
     //     alt: 'さんべいのホームページ',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     // Twitterのユーザー名を追加する場合（例：@san_bay3）
     // creator: '@san_bay3',
     // 画像を追加する場合は、以下をコメントアウトして画像URLを指定
-    // images: ['https://fabulous-tulumba-816ab8.netlify.app/og-image.png'],
+    // images: ['https://your-site.pages.dev/og-image.png'], // TODO: Cloudflare PagesのURLに更新してください
   },
 }
 
