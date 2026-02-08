@@ -17,10 +17,9 @@ import {
 } from 'react-icons/fa6'
 
 // Qiitaのアイコン（公式ロゴを使用）
-import Image from 'next/image'
-
+// 静的エクスポート時は通常のimgタグを使用
 const QiitaIcon = () => (
-  <Image
+  <img
     src="/qiita-icon.png"
     alt="Qiita"
     width={24}
