@@ -12,6 +12,7 @@ export default function Skills() {
     'JavaScript',
     'C++',
     'Network',
+    'Next.js',
     // 今後追加するスキルをここに記入
   ]
 
