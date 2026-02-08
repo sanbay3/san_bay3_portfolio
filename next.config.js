@@ -5,11 +5,6 @@ const nextConfig = {
   
   // 静的エクスポート（SSG）の設定 - Cloudflare Pages用
   output: 'export',
-  
-  // 画像最適化（静的エクスポート時は無効化が必要）
-  // images: {
-  //   unoptimized: true,
-  // },
 }
 
 module.exports = nextConfig

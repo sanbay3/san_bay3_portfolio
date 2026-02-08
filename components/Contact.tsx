@@ -9,11 +9,7 @@ import { ReactNode } from 'react'
 // React IconsからSNSアイコンをインポート
 import { 
   FaXTwitter, // X（旧Twitter）のアイコン
-  FaGithub, 
-  FaLinkedin, 
-  FaInstagram,
-  FaEnvelope,
-  FaGlobe
+  FaGithub,
 } from 'react-icons/fa6'
 
 // Qiitaのアイコン（公式ロゴを使用）
@@ -33,7 +29,6 @@ interface SocialLink {
   name: string
   url: string
   icon: ReactNode // React Iconsのアイコンコンポーネント
-  color?: string // カスタムカラー（オプション）
 }
 
 export default function Contact() {
