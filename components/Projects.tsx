@@ -20,7 +20,7 @@ export default function Projects() {
     {
       title: 'ポートフォリオサイト',
       description: 'このサイトです。',
-      link: 'https://your-site.pages.dev', // TODO: Cloudflare PagesのURLに更新してください
+      link: 'https://san-bay3-portfolio.pages.dev',
       date: '2026年1月', // 公開日を記入してください
     },
     // 今後追加するプロジェクトをここに記入
