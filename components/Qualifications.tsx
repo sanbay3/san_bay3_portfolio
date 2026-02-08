@@ -56,7 +56,7 @@ export default function Qualifications() {
           {qualifications.map((qual, index) => (
             <div
               key={index}
-              className="p-6 border border-accent bg-bg-primary rounded-sm hover:border-accent-hover hover:shadow-soft hover:-translate-y-1 transition-all duration-300"
+              className="p-6 border border-accent bg-bg-secondary rounded-sm hover:border-accent-hover hover:shadow-soft hover:-translate-y-1 transition-all duration-300"
             >
               <div className="flex items-center justify-between mb-2">
                 <span className="font-medium text-text-primary">{qual.name}</span>
