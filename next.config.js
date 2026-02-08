@@ -5,6 +5,8 @@ const nextConfig = {
   
   // 静的エクスポート（SSG）の設定
   output: 'export',
+
+  trailingSlash: true,
   
   // 画像最適化（静的エクスポート時は無効化が必要）
   // images: {
