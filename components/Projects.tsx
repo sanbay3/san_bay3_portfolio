@@ -19,7 +19,7 @@ export default function Projects() {
   const projects: Project[] = [
     {
       title: 'ポートフォリオサイト',
-      description: 'このサイトです。',
+      description: 'このホームページです。',
       link: 'https://san-bay3-portfolio.pages.dev',
       date: '2026年1月', // 公開日を記入してください
     },
