@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'さんべいのホームページ',
-    description: 'さんべいのホームページ。Web開発を学んでいます。',
+    description: 'さんべいのホームページ。ITについて色々学んでいます。',
     // Twitterのユーザー名を追加する場合（例：@san_bay3）
     // creator: '@san_bay3',
     // 画像を追加する場合は、以下をコメントアウトして画像URLを指定

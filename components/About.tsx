@@ -10,10 +10,6 @@ export default function About() {
       <div className="container-custom">
         <h2 className="section-title">About</h2>
         
-        <p className="text-text-secondary mb-12 text-lg max-w-2xl mx-auto text-center">
-          {/* セクションの説明文をここに記入 */}
-        </p>
-        
         <div className="max-w-3xl mx-auto space-y-6 text-text-secondary text-lg leading-relaxed">
           {/* 自己紹介文をここに記入 */}
           <p>

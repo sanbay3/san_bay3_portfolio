@@ -64,7 +64,7 @@ export default function Navigation() {
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="md:hidden p-2 text-text-primary hover:text-text-secondary transition-colors"
-            aria-label="メニューを開く"
+            aria-label={isOpen ? 'メニューを閉じる' : 'メニューを開く'}
           >
             {/* ハンバーガーアイコン */}
             <div className="w-6 h-6 flex flex-col justify-center gap-1.5">
