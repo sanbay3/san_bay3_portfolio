@@ -6,6 +6,7 @@ import Qualifications from '@/components/Qualifications'
 import Projects from '@/components/Projects'
 import Experience from '@/components/Experience'
 import Contact from '@/components/Contact'
+import Footer from '@/components/Footer'
 
 /**
  * Home ページコンポーネント
@@ -39,6 +40,9 @@ export default function Home() {
       
       {/* Contactセクション：連絡先 */}
       <Contact />
+      
+      {/* フッター */}
+      <Footer />
     </main>
   )
 }
