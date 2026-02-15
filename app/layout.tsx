@@ -5,6 +5,36 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'さんべいのホームページ',
   description: 'さんべいのホームページ。ITについて色々学んでいます。',
+  // キーワード（SEO用）
+  keywords: [
+    'ポートフォリオ',
+    'Web開発',
+    'Next.js',
+    'TypeScript',
+    'React',
+    'Tailwind CSS',
+    'IT',
+    'プログラミング',
+    'さんべい',
+  ],
+  // 作成者情報
+  authors: [
+    {
+      name: 'さんべい',
+    },
+  ],
+  // 検索エンジンのクロール設定
+  robots: {
+    index: true, // インデックス許可
+    follow: true, // リンクをフォロー許可
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
   // OGP（Open Graph）設定 - SNSシェア時の表示を改善
   openGraph: {
     title: 'さんべいのホームページ',
