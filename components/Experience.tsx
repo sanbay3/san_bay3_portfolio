@@ -29,7 +29,7 @@ export default function Experience() {
         <h2 className="section-title">Experience</h2>
         
         <p className="text-text-muted mb-12 text-lg max-w-2xl mx-auto text-center">
-          ざっくりとした経験です。（都度追加予定）
+          ざっくりとした経験です。（随時追加予定）
         </p>
         
         {/* 経歴のタイムライン表示 */}
