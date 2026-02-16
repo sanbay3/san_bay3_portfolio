@@ -18,7 +18,7 @@ export default function Experience() {
     {
       period: '2020 - 現在',
       title: '学習開始',
-      description: '焦りを感じはじめ、色々と学習を開始しました',
+      description: '焦りを感じはじめ、色々と手探りで学習を開始しました',
     },
     // 今後追加する経歴をここに記入
     ]
