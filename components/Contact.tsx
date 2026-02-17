@@ -36,7 +36,7 @@ export default function Contact() {
   const socialLinks: SocialLink[] = [
     // 例：コメントアウトを外して、自分のURLに変更してください
     {
-      name: 'X (Twitter)',
+      name: 'X (旧Twitter)',
       url: 'https://x.com/san_bay3',
       icon: <FaXTwitter />,
     },
