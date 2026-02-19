@@ -32,7 +32,7 @@ export default function Projects() {
         <h2 className="section-title">Projects</h2>
         
         <p className="text-text-muted mb-12 text-lg max-w-2xl mx-auto text-center">
-          作成したプロジェクト類です。（随時追加予定）
+          作成したプロジェクトです。（随時追加予定）
         </p>
         
         {/* プロジェクトカードのグリッド */}
