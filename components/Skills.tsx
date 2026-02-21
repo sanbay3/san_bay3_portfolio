@@ -22,7 +22,7 @@ export default function Skills() {
         <h2 className="section-title">Skills</h2>
         
         <p className="text-text-muted mb-12 text-lg max-w-2xl mx-auto text-center">
-          勉強中の技術です。（今後編集予定）
+          勉強中の技術です。（都度編集予定）
         </p>
         
         {/* スキルをグリッド表示 */}
