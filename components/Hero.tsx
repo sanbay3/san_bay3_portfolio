@@ -15,7 +15,7 @@ export default function Hero() {
         
         {/* サブタイトル（簡単な自己紹介） */}
         <p className="text-xl md:text-2xl text-text-muted mb-12 max-w-2xl mx-auto leading-relaxed">
-          ITについていろいろ学んでいます
+          ICTについていろいろ学んでいます
         </p>
         
         {/* プロジェクトセクションへのスクロールボタン */}
