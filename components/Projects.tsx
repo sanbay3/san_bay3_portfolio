@@ -21,7 +21,13 @@ export default function Projects() {
       title: 'ポートフォリオサイト',
       description: 'このホームページです。',
       link: 'https://san-bay3-portfolio.pages.dev',
-      date: '2026年1月', // 公開日を記入してください
+      date: '2026年1月',
+    },
+    {
+      title: 'パスワードジェネレーター',
+      description: '簡易的なパスワード生成Webアプリです。',
+      link: 'https://password-generator-eto.pages.dev/',
+      date: '2026年2月',
     },
     // 今後追加するプロジェクトをここに記入
   ]
