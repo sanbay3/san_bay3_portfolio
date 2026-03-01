@@ -15,7 +15,7 @@ interface Project {
 }
 
 export default function Projects() {
-  // プロジェクトリスト（ここに追加・編集してください）
+  // プロジェクトリスト（ここに追加・編集）
   const projects: Project[] = [
     {
       title: 'ポートフォリオサイト',
