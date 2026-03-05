@@ -25,7 +25,7 @@ export default function Projects() {
     },
     {
       title: 'パスワードジェネレーター',
-      description: '簡易的なパスワード生成Webアプリです。',
+      description: '簡易的なパスワード生成のWebアプリです。',
       link: 'https://password-generator-eto.pages.dev/',
       date: '2026年2月',
     },
