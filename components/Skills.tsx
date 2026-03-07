@@ -30,7 +30,7 @@ export default function Skills() {
           {skills.map((skill, index) => (
             <div
               key={index}
-              className="p-6 border border-accent bg-bg-primary text-center font-medium rounded-sm hover:border-accent-hover hover:shadow-soft hover:-translate-y-1 transition-all duration-300"
+              className="p-6 border border-accent bg-bg-primary text-center font-medium rounded-sm"
             >
               {skill}
             </div>
