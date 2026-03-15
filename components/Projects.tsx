@@ -29,6 +29,12 @@ export default function Projects() {
       link: 'https://password-generator-eto.pages.dev/',
       date: '2026年2月',
     },
+    {
+      title: 'ストップウォッチ',
+      description: 'ストップウォッチとタイマーWebアプリです。',
+      link: 'https://stopwatch-95c.pages.dev/',
+      date: '2026年3月',
+    },
     // 今後追加するプロジェクトをここに記入
   ]
 
