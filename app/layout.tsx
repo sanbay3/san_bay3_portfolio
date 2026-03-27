@@ -1,10 +1,12 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import { SITE_DESCRIPTION, SITE_TITLE, SITE_URL } from '@/lib/site'
 
 // メタデータ（SEO用の情報）
 export const metadata: Metadata = {
-  title: 'さんべいのホームページ',
-  description: 'さんべいのホームページ。ITについて色々学んでいます。',
+  metadataBase: new URL(SITE_URL),
+  title: SITE_TITLE,
+  description: SITE_DESCRIPTION,
   // キーワード（SEO用）
   keywords: [
     'ポートフォリオ',
@@ -23,6 +25,9 @@ export const metadata: Metadata = {
       name: 'さんべい',
     },
   ],
+  alternates: {
+    canonical: '/',
+  },
   // 検索エンジンのクロール設定
   robots: {
     index: true, // インデックス許可
@@ -35,42 +40,49 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
-  // OGP（Open Graph）設定 - SNSシェア時の表示を改善
+  // OGP（Open Graph）設定 - SNSシェア時の表示を改善（共有画像は `public/og-image.png` 配置後に metadata に追加可）
   openGraph: {
-    title: 'さんべいのホームページ',
-    description: 'さんべいのホームページ。ITについて色々学んでいます。',
-    url: 'https://san-bay3-portfolio.pages.dev',
-    siteName: 'さんべいのホームページ',
+    title: SITE_TITLE,
+    description: SITE_DESCRIPTION,
+    url: '/',
+    siteName: SITE_TITLE,
     locale: 'ja_JP',
     type: 'website',
-    // 画像を追加する場合は、以下をコメントアウトして画像URLを指定
-    // images: [
-    //   {
-    //     url: 'https://san-bay3-portfolio.pages.dev/og-image.png',
-    //     width: 1200,
-    //     height: 630,
-    //     alt: 'さんべいのホームページ',
-    //   },
-    // ],
   },
   // Twitterカード設定
   twitter: {
     card: 'summary_large_image',
-    title: 'さんべいのホームページ',
-    description: 'さんべいのホームページ。ITについて色々学んでいます。',
+    title: SITE_TITLE,
+    description: SITE_DESCRIPTION,
     // Twitterのユーザー名を追加する場合（例：@san_bay3）
     // creator: '@san_bay3',
-    // 画像を追加する場合は、以下をコメントアウトして画像URLを指定
-    // images: ['https://san-bay3-portfolio.pages.dev/og-image.png'],
   },
+}
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'WebSite',
+      name: SITE_TITLE,
+      url: SITE_URL,
+      description: SITE_DESCRIPTION,
+      inLanguage: 'ja',
+    },
+    {
+      '@type': 'Person',
+      name: 'さんべい',
+      url: SITE_URL,
+    },
+  ],
 }
 
 /**
  * RootLayout コンポーネント
- * 
+ *
  * このコンポーネントは全ページで共通のレイアウトを提供します。
  * Next.jsのApp Routerでは、layout.tsxが各ページをラップします。
- * 
+ *
  * @param children - 子コンポーネント（各ページのコンテンツ）
  */
 export default function RootLayout({
@@ -81,6 +93,10 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <body className="bg-bg-primary text-text-primary">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
         {children}
       </body>
     </html>
