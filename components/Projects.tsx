@@ -35,6 +35,12 @@ export default function Projects() {
       link: 'https://stopwatch-95c.pages.dev/',
       date: '2026年3月',
     },
+    {
+      title: '時給計算機',
+      description: '時給から給与を計算するWebアプリです。',
+      link: 'https://wage-calculator.pages.dev/',
+      date: '2026年4月',
+    },
     // 今後追加するプロジェクトをここに記入
   ]
 
