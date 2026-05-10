@@ -14,6 +14,7 @@ export default function Skills() {
     'Network',
     'Next.js',
     'Python',
+    'Cloud',
     // 今後追加するスキルをここに記入
   ]
 
