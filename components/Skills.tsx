@@ -10,6 +10,7 @@ export default function Skills() {
     'HTML',
     'CSS',
     'JavaScript',
+    'TypeScript',
     'C++',
     'Network',
     'Next.js',
