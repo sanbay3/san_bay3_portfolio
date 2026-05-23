@@ -30,8 +30,8 @@ export default function Projects() {
       date: '2026年2月',
     },
     {
-      title: 'ストップウォッチ',
-      description: 'ストップウォッチ・タイマーWebアプリです。',
+      title: 'ストップウォッチ・タイマー',
+      description: 'ストップウォッチとタイマーのWebアプリです。',
       link: 'https://stopwatch-95c.pages.dev/',
       date: '2026年3月',
     },
