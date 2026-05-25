@@ -41,6 +41,12 @@ export default function Projects() {
       link: 'https://wage-calculator.pages.dev/',
       date: '2026年4月',
     },
+    {
+      title: 'タスク管理アプリ',
+      description: '簡単なタスク管理アプリです。',
+      link: 'https://task-manager-eoj.pages.dev/',
+      date: '2026年5月',
+    },
     // 今後追加するプロジェクトをここに記入
   ]
 
