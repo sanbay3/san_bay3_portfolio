@@ -49,8 +49,8 @@ export default function Projects() {
     },
     // 今後追加するプロジェクトをここに記入
     {
-      title: '習慣トラッカー',
-      description: '習慣を記録するアプリです。（たたき台）',
+      title: '習慣トラッカー（調整中）',
+      description: '習慣を記録するアプリです。',
       link: 'https://habit-tracker-e0e.pages.dev/',
       date: '2026年6月',
     },
