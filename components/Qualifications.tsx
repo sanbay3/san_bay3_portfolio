@@ -16,8 +16,8 @@ export default function Qualifications() {
   const qualifications: Qualification[] = [
     {
       name: 'TOEIC',
-      level: '765点',
-      date: '2025年12月', // 取得年月を記入してください
+      level: '770点',
+      date: '2026年6月', // 取得年月を記入してください
     },
     {
       name: 'AtCoder',
