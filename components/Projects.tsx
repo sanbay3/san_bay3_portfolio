@@ -47,12 +47,17 @@ export default function Projects() {
       link: 'https://task-manager-eoj.pages.dev/',
       date: '2026年5月',
     },
-    // 今後追加するプロジェクトをここに記入
     {
       title: '習慣トラッカー',
       description: '日々の習慣を記録するアプリです。',
       link: 'https://habit-tracker-e0e.pages.dev/',
       date: '2026年6月',
+    },
+    {
+      title: 'ToDoアプリ（next.js）',
+      description: 'next.js版のタスク管理アプリです',
+      link: 'https://todo-nextjs-5m8.pages.dev/',
+      date: '2026年7月',
     },
   ]
 
