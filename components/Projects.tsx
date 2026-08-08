@@ -55,7 +55,7 @@ export default function Projects() {
     },
     {
       title: 'ToDoアプリ（next.js）',
-      description: 'next.js版のタスク管理アプリです',
+      description: 'next.js版のタスク管理アプリです。',
       link: 'https://todo-nextjs-5m8.pages.dev/',
       date: '2026年7月',
     },
