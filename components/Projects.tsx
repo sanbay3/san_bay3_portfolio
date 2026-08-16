@@ -59,7 +59,13 @@ export default function Projects() {
       link: 'https://todo-nextjs-5m8.pages.dev/',
       date: '2026年7月',
     },
-  ]
+    // {
+    //   title: 'できたこと日記',
+    //   description: 'できたことを積み上げていくアプリです。',
+    //   link: 'https://xx',
+    //   date: '2026年8月',
+    // },
+    ]
 
   return (
     <section id="projects" className="section-padding bg-bg-secondary">
