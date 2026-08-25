@@ -61,7 +61,7 @@ export default function Projects() {
     },
     {
       title: 'できたこと日記',
-      description: 'できたことを積み上げていくアプリです。',
+      description: '日々できたことを積み上げていくアプリです。',
       link: 'https://dekita-diary.pages.dev/',
       date: '2026年8月',
     },
