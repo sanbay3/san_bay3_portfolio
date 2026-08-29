@@ -65,6 +65,12 @@ export default function Projects() {
       link: 'https://dekita-diary.pages.dev/',
       date: '2026年8月',
     },
+    // {
+    //   title: 'xxx',
+    //   description: 'xxxx。',
+    //   link: 'https://xxx.pages.dev/',
+    //   date: '2026年9月',
+    // },
     ]
 
   return (
