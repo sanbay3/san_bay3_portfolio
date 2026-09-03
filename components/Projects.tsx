@@ -66,7 +66,7 @@ export default function Projects() {
       date: '2026年8月',
     },
     // {
-    //   title: 'xxx',
+    //   title: 'xxxアプリ',
     //   description: 'xxxxのアプリです。',
     //   link: 'https://xxx.pages.dev/',
     //   date: '2026年9月',
