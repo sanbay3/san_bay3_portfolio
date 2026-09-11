@@ -65,12 +65,12 @@ export default function Projects() {
       link: 'https://dekita-diary.pages.dev/',
       date: '2026年8月',
     },
-    // {
-    //   title: '3文字あてゲーム',
-    //   description: 'Wordleにインスパイアされた3文字の単語あてアプリです。',
-    //   link: 'https://three-letter-guess.pages.dev/',
-    //   date: '2026年9月',
-    // },
+    {
+      title: '3文字あてゲーム',
+      description: 'Wordleにインスパイアされた3文字の単語あてアプリです。',
+      link: 'https://three-letter-guess.pages.dev/',
+      date: '2026年9月',
+    },
     // {
     //   title: 'xxx',
     //   description: 'xxxアプリです。',
