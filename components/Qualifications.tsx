@@ -48,7 +48,7 @@ export default function Qualifications() {
         <h2 className="section-title">Qualifications</h2>
         
         <p className="text-text-muted mb-12 text-lg max-w-2xl mx-auto text-center">
-          取得済みの資格などです。（がんばるぞ・・）
+          取得済みの資格などです。（がんばるぞ…！）
         </p>
         
         {/* 資格をグリッド表示 */}
