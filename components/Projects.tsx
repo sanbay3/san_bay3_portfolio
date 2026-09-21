@@ -97,7 +97,7 @@ export default function Projects() {
         <h2 className="section-title">Projects</h2>
         
         <p className="text-text-muted mb-12 text-lg max-w-2xl mx-auto text-center">
-          作成したプロジェクト（アプリなど）です。（まずは勉強がてら…）
+          作成したプロジェクト（アプリなど）です。（まずは勉強がてら始めてみます…）
           <br />
           クリックでひらけます。
         </p>
