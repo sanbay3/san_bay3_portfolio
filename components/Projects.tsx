@@ -43,7 +43,7 @@ export default function Projects() {
     },
     {
       title: 'タスク管理アプリ',
-      description: '簡単なタスク管理アプリです。',
+      description: '簡単なタスク管理（ToDo）アプリです。',
       link: 'https://task-manager-eoj.pages.dev/',
       date: '2026年5月',
     },
