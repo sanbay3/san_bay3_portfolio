@@ -104,7 +104,8 @@ export default function Projects() {
         
         {/* プロジェクトカードのグリッド */}
         <div className="grid md:grid-cols-2 gap-6">
-          {projects.map((project, index) => (
+          {/* 新しい順に表示（リストは古い順のまま下に追加していけばOK） */}
+          {[...projects].reverse().map((project, index) => (
             project.link ? (
               <a
                 key={index}
