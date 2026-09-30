@@ -12,12 +12,12 @@ interface Qualification {
 }
 
 export default function Qualifications() {
-  // 資格リスト（ここに追加・編集してください）
+  // 資格リスト（ここに追加・編集）
   const qualifications: Qualification[] = [
     {
       name: 'TOEIC',
       level: '770点',
-      date: '2026年6月', // 取得年月を記入してください
+      date: '2026年6月', // 取得年月を記入
     },
     {
       name: 'AtCoder',
