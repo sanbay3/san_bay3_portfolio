@@ -81,32 +81,25 @@ export default function Contact() {
         </p>
         
         {/* SNSリンクのリスト */}
-        {socialLinks.length > 0 ? (
-          <div className="flex flex-wrap justify-center gap-4">
-            {socialLinks.map((link, index) => (
-              <a
-                key={index}
-                href={link.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group flex items-center gap-3 px-6 py-4 bg-bg-primary border-2 border-accent text-text-primary font-medium rounded-sm hover:border-text-primary hover:shadow-medium hover:-translate-y-1 transition-all duration-300"
-                aria-label={link.name}
-              >
-                <span className="text-2xl group-hover:scale-110 transition-transform duration-300">
-                  {link.icon}
-                </span>
-                <span className="group-hover:text-text-secondary transition-colors">
-                  {link.name}
-                </span>
-              </a>
-            ))}
-          </div>
-        ) : (
-          <div className="text-text-muted">
-            <p className="mb-4">SNSリンクを追加する場合は、<code className="bg-bg-primary px-2 py-1 rounded text-sm">components/Contact.tsx</code>を編集してください。</p>
-            <p className="text-sm">対応しているアイコン: X (Twitter), GitHub, Qiita, LinkedIn, Instagram, Email, Website</p>
-          </div>
-        )}
+        <div className="flex flex-wrap justify-center gap-4">
+          {socialLinks.map((link, index) => (
+            <a
+              key={index}
+              href={link.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex items-center gap-3 px-6 py-4 bg-bg-primary border-2 border-accent text-text-primary font-medium rounded-sm hover:border-text-primary hover:shadow-medium hover:-translate-y-1 transition-all duration-300"
+              aria-label={link.name}
+            >
+              <span className="text-2xl group-hover:scale-110 transition-transform duration-300">
+                {link.icon}
+              </span>
+              <span className="group-hover:text-text-secondary transition-colors">
+                {link.name}
+              </span>
+            </a>
+          ))}
+        </div>
       </div>
     </section>
   )

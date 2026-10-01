@@ -5,7 +5,7 @@
  * 現在は簡単な構成ですが、将来的に拡張可能です。
  */
 export default function Skills() {
-  // スキルリスト（ここに追加・編集してください）
+  // スキルリスト（ここに追加・編集）
   const skills = [
     'HTML',
     'CSS',

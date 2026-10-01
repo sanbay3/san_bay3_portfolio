@@ -13,7 +13,7 @@ interface ExperienceItem {
 }
 
 export default function Experience() {
-  // 経歴リスト（ここに追加・編集してください）
+  // 経歴リスト（ここに追加・編集）
   const experiences: ExperienceItem[] = [
     {
       period: '2020 - 現在',
