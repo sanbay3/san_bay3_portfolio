@@ -1,7 +1,6 @@
 import type { Config } from 'tailwindcss'
 
 const config: Config = {
-  // コンテンツのパスを指定（Tailwindがどのファイルをスキャンするか）
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
@@ -9,25 +8,23 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      // カスタムカラーパレット（白・黒基調、モダンなグレースケール）
+      // 白・黒基調のグレースケール
       colors: {
         // 背景色
-        'bg-primary': '#ffffff', // 白
-        'bg-secondary': '#f5f5f5', // より洗練された薄いグレー（濃く調整）
-        'bg-tertiary': '#f0f0f0', // 中間グレー
+        'bg-primary': '#ffffff',
+        'bg-secondary': '#f5f5f5',
+        'bg-tertiary': '#f0f0f0',
         // テキスト色
-        'text-primary': '#0a0a0a', // ほぼ黒（より柔らかい）
-        'text-secondary': '#1a1a1a', // 濃いグレー
-        'text-muted': '#6b7280', // モダンな中間グレー
-        // アクセント
-        'accent': '#e5e7eb', // 薄いグレー（ボーダー用）
-        'accent-hover': '#d1d5db', // ホバー時のグレー
+        'text-primary': '#0a0a0a',
+        'text-secondary': '#1a1a1a',
+        'text-muted': '#6b7280',
+        // アクセント（ボーダー用）
+        'accent': '#e5e7eb',
+        'accent-hover': '#d1d5db',
       },
-      // フォント設定
       fontFamily: {
         sans: ['system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
       },
-      // シャドウ設定
       boxShadow: {
         'soft': '0 2px 8px rgba(0, 0, 0, 0.04)',
         'medium': '0 4px 16px rgba(0, 0, 0, 0.08)',

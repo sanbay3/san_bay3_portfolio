@@ -6,16 +6,14 @@ import { FaArrowUp } from 'react-icons/fa6'
 /**
  * ScrollToTop コンポーネント
  * 
- * ページトップに戻るボタンです。
- * スクロール位置を監視し、一定量スクロールしたら表示されます。
+ * ページトップに戻るボタン
+ * 300px以上スクロールしたら表示
  */
 export default function ScrollToTop() {
   const [isVisible, setIsVisible] = useState(false)
 
-  // スクロール位置を監視
   useEffect(() => {
     const toggleVisibility = () => {
-      // 300px以上スクロールしたら表示
       if (window.scrollY > 300) {
         setIsVisible(true)
       } else {
@@ -23,16 +21,13 @@ export default function ScrollToTop() {
       }
     }
 
-    // スクロールイベントを監視
     window.addEventListener('scroll', toggleVisibility)
 
-    // クリーンアップ
     return () => {
       window.removeEventListener('scroll', toggleVisibility)
     }
   }, [])
 
-  // ページトップにスクロール
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,

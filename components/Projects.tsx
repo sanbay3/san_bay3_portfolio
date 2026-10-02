@@ -1,17 +1,16 @@
 /**
  * Projects コンポーネント
  * 
- * プロジェクト・作品を表示するセクションです。
- * 各プロジェクトのタイトル、説明、リンクなどを表示できます。
+ * プロジェクト・作品のセクション
+ * タイトル・説明・リンク・日付を表示
  */
 
-// プロジェクトの型定義（TypeScript）
 interface Project {
   title: string
   description: string
-  link?: string // オプション（リンクがない場合もある）
-  github?: string // GitHubリンク（オプション）
-  date?: string // 公開日や作成日（オプション）
+  link?: string
+  github?: string // 未表示
+  date?: string
 }
 
 export default function Projects() {
@@ -104,7 +103,7 @@ export default function Projects() {
         
         {/* プロジェクトカードのグリッド */}
         <div className="grid md:grid-cols-2 gap-6">
-          {/* 新しい順に表示（リストは古い順のまま下に追加していけばOK） */}
+          {/* 新しい順に表示（リストは古い順で下に追加） */}
           {[...projects].reverse().map((project, index) => (
             project.link ? (
               <a

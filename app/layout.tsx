@@ -19,7 +19,6 @@ export const metadata: Metadata = {
     'プログラミング',
     'さんべい',
   ],
-  // 作成者情報
   authors: [
     {
       name: 'さんべい',
@@ -30,8 +29,8 @@ export const metadata: Metadata = {
   },
   // 検索エンジンのクロール設定
   robots: {
-    index: true, // インデックス許可
-    follow: true, // リンクをフォロー許可
+    index: true,
+    follow: true,
     googleBot: {
       index: true,
       follow: true,
@@ -40,7 +39,7 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
-  // OGP（Open Graph）設定 - SNSシェア時の表示を改善（共有画像は `public/og-image.png` 配置後に metadata に追加可）
+  // OGP設定（共有画像は public/og-image.png 配置後に追加）
   openGraph: {
     title: SITE_TITLE,
     description: SITE_DESCRIPTION,
@@ -78,12 +77,7 @@ const jsonLd = {
 }
 
 /**
- * RootLayout コンポーネント
- *
- * このコンポーネントは全ページで共通のレイアウトを提供します。
- * Next.jsのApp Routerでは、layout.tsxが各ページをラップします。
- *
- * @param children - 子コンポーネント（各ページのコンテンツ）
+ * 全ページ共通のレイアウト
  */
 export default function RootLayout({
   children,

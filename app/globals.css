@@ -1,25 +1,20 @@
-/* Tailwind CSSの基本スタイルをインポート */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* グローバルスタイル */
 @layer base {
-  /* スムーズなスクロール */
   html {
     scroll-behavior: smooth;
   }
 
-  /* ボディの基本スタイル */
   body {
-    @apply antialiased; /* フォントのアンチエイリアス */
-    @apply font-sans; /* システムフォントを使用 */
+    @apply antialiased;
+    @apply font-sans; /* システムフォント */
   }
 
-  /* 見出しのスタイル */
   h1, h2, h3 {
     @apply font-bold;
-    letter-spacing: -0.02em; /* よりタイトな文字間隔 */
+    letter-spacing: -0.02em;
   }
 
   /* スムーズスクロールのオフセット調整（固定ナビゲーションバー対応） */

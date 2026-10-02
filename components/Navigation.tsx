@@ -5,14 +5,12 @@ import { useState } from 'react'
 /**
  * Navigation コンポーネント
  * 
- * 固定ナビゲーションバーです。
- * モバイルではハンバーガーメニュー、デスクトップでは横並びメニューを表示します。
+ * 固定ナビゲーションバー
+ * モバイルはハンバーガーメニュー、デスクトップは横並びメニュー
  */
 export default function Navigation() {
-  // ハンバーガーメニューの開閉状態を管理
   const [isOpen, setIsOpen] = useState(false)
 
-  // ナビゲーションリンクのリスト
   const navLinks = [
     { name: 'About', href: '#about' },
     { name: 'Skills', href: '#skills' },
@@ -22,7 +20,6 @@ export default function Navigation() {
     { name: 'SNS / Accounts', href: '#contact' },
   ]
 
-  // メニューを閉じる関数
   const closeMenu = () => {
     setIsOpen(false)
   }

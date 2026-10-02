@@ -1,14 +1,12 @@
 /**
  * Contact コンポーネント
  * 
- * 連絡先・SNSリンクを表示するセクションです。
- * SNSアイコン付きで表示されます。
+ * 連絡先・SNSリンクのセクション（アイコン付き）
  */
 
 import { ReactNode } from 'react'
-// React IconsからSNSアイコンをインポート
-import { 
-  FaXTwitter, // X（旧Twitter）のアイコン
+import {
+  FaXTwitter,
   FaGithub,
 } from 'react-icons/fa6'
 
@@ -24,11 +22,10 @@ const QiitaIcon = () => (
   />
 )
 
-// SNSリンクの型定義（TypeScript）
 interface SocialLink {
   name: string
   url: string
-  icon: ReactNode // React Iconsのアイコンコンポーネント
+  icon: ReactNode
 }
 
 export default function Contact() {

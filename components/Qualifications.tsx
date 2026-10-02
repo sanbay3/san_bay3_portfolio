@@ -1,14 +1,13 @@
 /**
  * Qualifications コンポーネント
  * 
- * 資格・検定を表示するセクションです。
+ * 資格・検定のセクション
  */
 
-// 資格の型定義（TypeScript）
 interface Qualification {
   name: string
-  level?: string // レベルやスコア（オプション）
-  date?: string // 取得年月（オプション）
+  level?: string // レベルやスコア
+  date?: string // 取得年月
 }
 
 export default function Qualifications() {

@@ -1,11 +1,10 @@
 /**
  * Experience コンポーネント
  * 
- * 経歴・経験を表示するセクションです。
- * 現在は簡単な構成ですが、将来的に拡張可能です。
+ * 経歴・経験のセクション
+ * 今は簡単な構成、将来的に拡張可能
  */
 
-// 経歴の型定義（TypeScript）
 interface ExperienceItem {
   period: string
   title: string

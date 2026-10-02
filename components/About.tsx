@@ -1,8 +1,7 @@
 /**
  * About コンポーネント
  * 
- * 自己紹介セクションです。
- * プロフィール画像や詳細な自己紹介を表示します。
+ * 自己紹介セクション
  */
 export default function About() {
   return (
