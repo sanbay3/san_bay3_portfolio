@@ -70,12 +70,12 @@ export default function Projects() {
       link: 'https://three-letter-guess.pages.dev/',
       date: '2026年9月',
     },
-    // {
-    //   title: 'xxxアプリ',
-    //   description: 'xxxのアプリです',
-    //   link: 'https://xxx.pages.dev/',
-    //   date: '2026年10月',
-    // },
+    {
+      title: 'ポモドーロタイマー',
+      description: '25分の作業と5分の休憩をくり返す、集中のためのタイマーアプリです。',
+      link: 'https://pomodoro-timer-edg.pages.dev/',
+      date: '2026年10月',
+    },
     // {
     //   title: 'xxxアプリ',
     //   description: 'xxxのアプリです',
