@@ -24,13 +24,13 @@ export default function Projects() {
     },
     {
       title: 'パスワードジェネレーター',
-      description: '簡易的なパスワード生成のWebアプリです。',
+      description: '文字数や使う文字の種類を指定して、パスワードを生成するWebアプリです。',
       link: 'https://password-generator-eto.pages.dev/',
       date: '2026年2月',
     },
     {
       title: 'ストップウォッチ・タイマー',
-      description: 'ストップウォッチとタイマーのWebアプリです。',
+      description: ' ストップウォッチとタイマーを切り替えて使えるWebアプリです。',
       link: 'https://stopwatch-95c.pages.dev/',
       date: '2026年3月',
     },
@@ -42,7 +42,7 @@ export default function Projects() {
     },
     {
       title: 'タスク管理（ToDo）アプリ',
-      description: '簡単なタスク管理（ToDo）アプリです。',
+      description: 'タスクの追加・完了・削除ができるToDoアプリです。',
       link: 'https://task-manager-eoj.pages.dev/',
       date: '2026年5月',
     },
@@ -53,8 +53,8 @@ export default function Projects() {
       date: '2026年6月',
     },
     {
-      title: 'ToDoアプリ（next.js）',
-      description: 'next.js版のタスク管理アプリです。',
+      title: 'ToDoアプリ（Next.js）',
+      description: 'Next.jsで作ったタスク管理アプリです。',
       link: 'https://todo-nextjs-5m8.pages.dev/',
       date: '2026年7月',
     },
