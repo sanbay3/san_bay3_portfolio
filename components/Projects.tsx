@@ -24,19 +24,19 @@ export default function Projects() {
     },
     {
       title: 'パスワードジェネレーター',
-      description: '文字数や使う文字の種類を指定して、パスワードを生成するWebアプリです。',
+      description: '文字数や使う文字の種類を指定して、パスワードを生成するアプリです。',
       link: 'https://password-generator-eto.pages.dev/',
       date: '2026年2月',
     },
     {
       title: 'ストップウォッチ・タイマー',
-      description: ' ストップウォッチとタイマーを切り替えて使えるWebアプリです。',
+      description: 'ストップウォッチとタイマーを切り替えて使えるアプリです。',
       link: 'https://stopwatch-95c.pages.dev/',
       date: '2026年3月',
     },
     {
       title: '時給計算機',
-      description: '時給から給与を計算するWebアプリです。',
+      description: '時給から給与を計算するアプリです。',
       link: 'https://wage-calculator.pages.dev/',
       date: '2026年4月',
     },
