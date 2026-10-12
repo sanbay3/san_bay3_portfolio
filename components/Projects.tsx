@@ -72,7 +72,7 @@ export default function Projects() {
     },
     {
       title: 'ポモドーロタイマー',
-      description: '25分の作業と5分の休憩をくり返す、集中のためのタイマーアプリです。',
+      description: '25分の作業と5分の休憩をくり返す、集中するためのタイマーアプリです。',
       link: 'https://pomodoro-timer-edg.pages.dev/',
       date: '2026年10月',
     },
