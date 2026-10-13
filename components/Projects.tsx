@@ -66,7 +66,7 @@ export default function Projects() {
     },
     {
       title: '3文字あてゲーム',
-      description: 'Wordleにインスパイアされた3文字の単語あてアプリです。',
+      description: 'Wordleにインスパイアされた3文字の単語当てアプリです。',
       link: 'https://three-letter-guess.pages.dev/',
       date: '2026年9月',
     },
