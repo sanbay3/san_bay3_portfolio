@@ -77,13 +77,13 @@ export default function Projects() {
       date: '2026年10月',
     },
     // {
-    //   title: 'xxxアプリ',
+    //   title: 'xxx',
     //   description: 'xxxのアプリです',
     //   link: 'https://xxx.pages.dev/',
     //   date: '2026年11月',
     // },
     // {
-    //   title: 'xxxアプリ',
+    //   title: 'xxx',
     //   description: 'xxxのアプリです',
     //   link: 'https://xxx.pages.dev/',
     //   date: '2026年12月',
