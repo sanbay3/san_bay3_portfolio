@@ -98,7 +98,7 @@ export default function Projects() {
         <p className="text-text-muted mb-12 text-lg max-w-2xl mx-auto text-center">
           作成したプロジェクト（アプリなど）です。（まずは勉強がてら…）
           <br />
-          クリックでひらけます。
+          クリックで開けます。
         </p>
         
         {/* プロジェクトカードのグリッド */}
