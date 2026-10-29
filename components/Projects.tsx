@@ -78,13 +78,13 @@ export default function Projects() {
     },
     // {
     //   title: 'xxx',
-    //   description: 'xxxのアプリです',
+    //   description: 'xxxのアプリです。',
     //   link: 'https://xxx.pages.dev/',
     //   date: '2026年11月',
     // },
     // {
     //   title: 'xxx',
-    //   description: 'xxxのアプリです',
+    //   description: 'xxxのアプリです。',
     //   link: 'https://xxx.pages.dev/',
     //   date: '2026年12月',
     // },
